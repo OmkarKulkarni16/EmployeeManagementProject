@@ -1,6 +1,5 @@
 package com.hdfc.employeemanagementsystem;
 
-import com.hdfc.employeemanagementsystem.entity.Employee;
 import com.hdfc.employeemanagementsystem.repository.IEmployeeRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,36 +26,36 @@ class EmployeeManagementSystemApplicationTests {
 //		employeeRepository.save(employee);
 //	}
 
-	@Test
-	void retrieveData(){
-		Employee employee = employeeRepository.findById(5).get();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-
-		System.out.println(employee);
-//		aes.encryption.key=this-is-test-key
-	}
+//	@Test
+//	void retrieveData(){
+//		Employee employee = employeeRepository.findById(5).get();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//		System.out.println();
+//
+//		System.out.println(employee);
+////		aes.encryption.key=this-is-test-key
+//	}
 }
